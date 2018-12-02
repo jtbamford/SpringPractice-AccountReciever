@@ -15,7 +15,7 @@ public class Reciever {
 	@Autowired
 	private POJOAccountService service;
 	
-	@JmsListener(destination = "accountQueue", containerFactory = "jmsContainerFactory")
+	@JmsListener(destination = "accountQueue", containerFactory = "myFactory")
 	public POJOAccount receiveMessage(String account) {
 		return service.addToDb(account);
 	}
