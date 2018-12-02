@@ -5,8 +5,8 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-import com.qa.AccountReciever.domain.POJOAccount;
 import com.qa.AccountReciever.service.POJOAccountService;
+import com.qa.AccountSystem.domain.POJOAccount;
 
 @Component
 @CrossOrigin

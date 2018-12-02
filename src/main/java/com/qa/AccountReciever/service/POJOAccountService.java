@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.qa.AccountReciever.Util.JSONUtil;
-import com.qa.AccountReciever.domain.POJOAccount;
 import com.qa.AccountReciever.repository.POJOAccountRepository;
+import com.qa.AccountSystem.domain.POJOAccount;
 
 @Service
 public class POJOAccountService {

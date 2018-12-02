@@ -1,4 +1,4 @@
-package com.qa.AccountReciever.domain;
+package com.qa.AccountSystem.domain;
 
 import java.io.Serializable;
 
